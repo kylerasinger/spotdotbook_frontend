@@ -14,7 +14,7 @@ class HeaderComponent extends Component {
             <div>
                 <header>
                     <nav className="navbar navbar-expand-md navbar-dark bg-dark">
-                    <div><a href="localhost:3000" className="navbar-brand"> spotdotbook | v0.1.2 </a></div>    
+                    <div><a href="localhost:3000" className="navbar-brand"> spotdotbook | v0.1 </a></div>    
                     </nav>
                 </header>
             </div>
