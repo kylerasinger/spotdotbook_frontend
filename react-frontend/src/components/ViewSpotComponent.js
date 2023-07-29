@@ -4,11 +4,9 @@ import { useParams, useNavigate } from 'react-router-dom';
 
 const ViewSpotComponent = () => {
     const { id } = useParams();
-    const navigate = useNavigate();
+    //const navigate = useNavigate();
     const [spot, setSpot] = useState({});
-
-
-
+    
     useEffect(() => {
         let idLong = parseInt(id);
 
