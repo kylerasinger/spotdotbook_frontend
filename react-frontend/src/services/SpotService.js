@@ -27,4 +27,6 @@ class SpotService {
     }
 }
 
-export default new SpotService();
+const spotService = new SpotService();
+
+export default spotService();
