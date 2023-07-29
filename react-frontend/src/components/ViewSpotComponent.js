@@ -1,12 +1,12 @@
 import React, {useEffect, useState} from 'react';
 import SpotService from '../services/SpotService';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 
 const ViewSpotComponent = () => {
     const { id } = useParams();
     //const navigate = useNavigate();
     const [spot, setSpot] = useState({});
-    
+
     useEffect(() => {
         let idLong = parseInt(id);
 
